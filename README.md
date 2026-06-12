@@ -1,16 +1,8 @@
-![ESP32](https://img.shields.io/badge/ESP32-blue)
-
-![RC522](https://img.shields.io/badge/RC522-green)
-
-![Arduino](https://img.shields.io/badge/Arduino-teal)
-
-![GoogleSheets](https://img.shields.io/badge/Google%20Sheets-brightgreen)
-
-![WiFi](https://img.shields.io/badge/WiFi-orange)
+![ESP32](https://img.shields.io/badge/ESP32-blue) ![RC522](https://img.shields.io/badge/RC522-green) ![Arduino](https://img.shields.io/badge/Arduino-teal) ![GoogleSheets](https://img.shields.io/badge/Google%20Sheets-brightgreen) ![WiFi](https://img.shields.io/badge/WiFi-orange)
 
 # RFID-Attendance-System
 
-![Prototype](photos/prototype.jpg)
+![Prototype](img/prototype.jpg)
 
 Developed an ESP32-based RFID attendance system that records user check-in/check-out events and automatically synchronizes attendance data with Google Sheets via Wi-Fi.
 
@@ -72,7 +64,7 @@ Used HTTP requests to synchronize attendance events with a cloud-based spreadshe
 Custom enclosure designed in Fusion 360 and manufactured using FDM 3D printing.
 
 ## Wiring
-![Wiring](photos/wiring.png)
+![Wiring](img/wiring.png)
 
 ## Hardware Connection
 | RC522 Pin | ESP32 Pin | Description |
