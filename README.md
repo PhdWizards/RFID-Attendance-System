@@ -1,5 +1,5 @@
 # RFID-Attendance-System
-Developed an RFID-based attendance tracking system using ESP32, RC522, and Google Sheets integration.
+Developed an ESP32-based RFID attendance system that records user check-in/check-out events and automatically synchronizes attendance data with Google Sheets via Wi-Fi.
 
 ## Overview
 The system allows students or employees to register attendance by scanning RFID cards.
