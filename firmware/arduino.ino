@@ -4,11 +4,11 @@
 #include <MFRC522.h>
 
 // ========= WiFi =========
-const char* ssid = "FabLab";
-const char* password = "f3a4b1lab";
+const char* ssid = "";
+const char* password = "";
 
 // ========= Google Script =========
-String scriptURL = "https://script.google.com/macros/s/AKfycbzh63_CwPGEghkfUWHGJwKfm3qFMhJw4RgawZe82Q-i2FPysVpzIu99EYD9DImJxbqNuA/exec";
+String scriptURL = "";
 
 // ========= RC522 =========
 #define SS_PIN 5
