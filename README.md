@@ -2,7 +2,9 @@
 
 # RFID-Attendance-System
 
-![Prototype](img/prototype.jpg)
+<p align="center">
+  <img src="img/prototype.jpg" width="350">
+</p>
 
 Developed an ESP32-based RFID attendance system that records user check-in/check-out events and automatically synchronizes attendance data with Google Sheets via Wi-Fi.
 
@@ -43,6 +45,10 @@ Attendance records are automatically uploaded to Google Sheets through Wi-Fi.
 ## System Architecture
 RFID Card -> RC522 -> ESP32 -> Wi-Fi -> Google Sheets
 
+<p align="center">
+  <img src="img/architecture.png" width="700">
+</p>
+
 ## Future Improvements
 - OLED display
 - Local database backup
@@ -64,7 +70,9 @@ Used HTTP requests to synchronize attendance events with a cloud-based spreadshe
 Custom enclosure designed in Fusion 360 and manufactured using FDM 3D printing.
 
 ## Wiring
-![Wiring](img/wiring.png)
+<p align="center">
+  <img src="img/wiring.png" width="600">
+</p>
 
 ## Hardware Connection
 | RC522 Pin | ESP32 Pin | Description |
